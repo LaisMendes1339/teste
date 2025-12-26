@@ -129,7 +129,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const formattedDate = `${String(day).padStart(2, '0')}/${String(month).padStart(2, '0')}/${year}`;
       const message = `Olá! Gostaria de agendar um banho e tosa para meu pet no dia ${formattedDate} às ${selectedTime}.`;
       const encodedMessage = encodeURIComponent(message);
-      const whatsappUrl = `https://wa.me/55859998421339?text=${encodedMessage}`;
+      const whatsappUrl = `https://wa.me/5585998421339?text=${encodedMessage}`;
 
       alert(`✅ Você será redirecionado ao WhatsApp para confirmar:\n\n📅 ${formattedDate}\n⏰ ${selectedTime}\n\n⚠️ Seu horário só será reservado após nossa confirmação no WhatsApp.`);
       window.open(whatsappUrl, '_blank');
@@ -149,4 +149,5 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     });
   });
+
 });

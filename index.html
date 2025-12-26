@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DogCat – Pet Shop Especialista no Bem-Estar do Seu Melhor Amigo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&family=Fredoka:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <!-- Top Bar -->
+  <div class="top-bar">
+    <div class="container">
+      <div class="contact-info">
+        <i class="fas fa-phone"></i> (85) 998421339 / 4002-8922
+      </div>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-pinterest"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+        <a href="#"><i class="fab fa-google"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <div class="logo">
+        <img src="imagem/logo.png" alt="DogCat Logo" />
+        <span class="logo-text">Dog<span>Cat</span></span>
+      </div>
+      <nav class="nav">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#veterinarios">Veterinários</a></li>
+          <li><a href="#banho-tosa">Banho & Tosa</a></li>
+          <li><a href="#produtos">Produtos</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <h1>DOG<span>CAT</span></h1>
+        <h2>Pet Shop especialista no bem-estar do seu melhor amigo</h2>
+        <p>Ofereça a seu pet o que há de melhor</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Prevenção Veterinária -->
+  <section id="prevencao" class="prevention">
+    <div class="container">
+      <h2>Nosso foco é a prevenção</h2>
+      <h3>Garanta vida longa para seu melhor amigo</h3>
+      <p>O DogCat tem como maior objetivo esclarecer para todos os nossos clientes que cuidam e amam seus pets o quanto é importante a Veterinária Preventiva, que pensa não só no hoje mas principalmente no futuro do seu pet, garantindo uma vida longa e saudável.</p>
+      <p>A veterinária preventiva deve ser na verdade um hábito que se torne tradição para as famílias com pets, porque da mesma forma que nós precisamos fazer check-up periodicamente, com os nossos pets não é diferente, eles também precisam desse cuidado. Porque? Porque além de ser a única forma de evitar e antecipar tratamentos de alguns determinados tipos de doença, a Veterinária Preventiva também vai poder gerar um conforto e uma segurança maior quanto à saúde do seu pet.</p>
+      <p>Nosso objetivo é garantir que seu bichinho seja mais feliz e saudável.</p>
+    </div>
+  </section>
+
+  <!-- Veterinários -->
+  <section id="veterinarios" class="team-section">
+    <div class="container">
+      <h2>Veterinários Disponíveis</h2>
+      <div class="team-grid">
+        <div class="vet-card">
+          <img src="imagem/ana.png" alt="Dra. Ana" class="vet-img" />
+          <h3>Dra. Ana</h3>
+          <p>Especialista em pequenos animais. Atende às terças, quintas e sábados.</p>
+        </div>
+        <div class="vet-card">
+          <img src="imagem/carlos.png" alt="Dr. Carlos" class="vet-img" />
+          <h3>Dr. Carlos</h3>
+          <p>Cirurgião geral. Atende segundas, quartas e sextas.</p>
+        </div>
+        <div class="vet-card">
+          <img src="imagem/henrique.png" alt="Dr. Henrique" class="vet-img" />
+          <h3>Dr. Henrique</h3>
+          <p>Clínico geral e homeopata. Atende aos domingos e feriados.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Banho & Tosa -->
+  <section id="banho-tosa" class="bath-section">
+    <div class="container">
+      <h2>Banho & Tosa</h2>
+      <p>Escolha o pacote ideal para o tamanho do seu pet:</p>
+      <div class="packages-grid">
+        <div class="package-card">
+          <h3>Pequeno</h3>
+          <p>(Até 5kg)</p>
+          <div class="price">R$ 35</div>
+        </div>
+        <div class="package-card">
+          <h3>Médio</h3>
+          <p>(5kg a 15kg)</p>
+          <div class="price">R$ 50</div>
+        </div>
+        <div class="package-card">
+          <h3>Grande</h3>
+          <p>(Acima de 15kg)</p>
+          <div class="price">R$ 70</div>
+        </div>
+      </div>
+
+      <!-- Calendário Dinâmico -->
+      <div class="calendar-section">
+        <h3>Agende sua visita</h3>
+        <div class="calendar-wrapper">
+          <!-- Calendário à esquerda -->
+          <div class="calendar-left">
+            <div class="calendar-header">
+              <button class="prev"><i class="fas fa-chevron-left"></i></button>
+              <h4 id="current-month-year">Dezembro 2025</h4>
+              <button class="next"><i class="fas fa-chevron-right"></i></button>
+            </div>
+            <div class="calendar-days">
+              <div class="day-name">Dom</div>
+              <div class="day-name">Seg</div>
+              <div class="day-name">Ter</div>
+              <div class="day-name">Qua</div>
+              <div class="day-name">Qui</div>
+              <div class="day-name">Sex</div>
+              <div class="day-name">Sáb</div>
+            </div>
+            <div class="calendar-dates" id="calendar-dates">
+              <!-- Dias gerados pelo JavaScript -->
+            </div>
+          </div>
+
+          <!-- Horários à direita -->
+          <div class="time-slots-right">
+            <h4>Horários disponíveis:</h4>
+            <div class="slot">08:00 - 09:00</div>
+            <div class="slot">09:00 - 10:00</div>
+            <div class="slot">10:00 - 11:00</div>
+            <div class="slot">11:00 - 12:00</div>
+            <div class="slot">14:00 - 15:00</div>
+            <div class="slot">15:00 - 16:00</div>
+            <div class="slot">16:00 - 17:00</div>
+            <a href="#" id="confirm-booking" class="btn-primary">Confirmar Agendamento via WhatsApp</a>
+            <p class="note">
+              ⚠️ Seu horário só será reservado após nossa confirmação no WhatsApp.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Produtos -->
+  <section id="produtos" class="products-section">
+    <div class="container">
+      <h2>Produtos Disponíveis</h2>
+      <div class="products-grid">
+        <div class="product-category">
+          <img src="imagem/brinquedo.png" alt="Brinquedos para pets" class="product-img" />
+          <h3>Brinquedos</h3>
+          <p>Roupinhas, petiscos, brinquedos interativos e muito mais para entreter seu pet!</p>
+        </div>
+        <div class="product-category">
+          <img src="imagem/racao.png" alt="Raçoes premium" class="product-img" />
+          <h3>Rações</h3>
+          <p>Linhas premium, naturais e medicamentosas para todos os portes e idades.</p>
+        </div>
+        <div class="product-category">
+          <img src="imagem/farmacia.png" alt="Remédios veterinários" class="product-img" />
+          <h3>Remédios</h3>
+          <p>Vermífugos, antipulgas, antibióticos e suplementos sob prescrição veterinária.</p>
+        </div>
+      </div>
+      <p class="note">Todos os produtos são selecionados com carinho e qualidade. Consulte nossa equipe para recomendações personalizadas!</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 DogCat. Feito com amor em Fortaleza, Ceará. 🐾</p>
+    </div>
+  </footer>
+
+  <!-- Fixed Contact Buttons -->
+  <div class="fixed-contact">
+    <a href="tel:5585998421339" class="contact-btn phone"><i class="fas fa-phone"></i></a>
+    <a href="https://wa.me/558598421339" target="_blank" class="contact-btn whatsapp"><i class="fab fa-whatsapp"></i></a>
+    <a href="#" class="contact-btn location"><i class="fas fa-map-marker-alt"></i></a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
